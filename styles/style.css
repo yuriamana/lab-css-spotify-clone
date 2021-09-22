@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header section {
+  position: fixed;
+  
+}
+.header > div {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.nav-bar-item {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    
+  }
+
+.nav-bar-item li {
+  margin: 10px;
+  text-align: left;
+  display: flex;
+  
+}
+
+.spotify {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 100vw;
+  padding-top: 50px;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+#flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.section2 > div {
+    display: flex;
+}
+
+.container {
+    size: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  
+}
+
+.container img {
+  width: 40px;
+  display: ;
+  
+}
+
+
+.underline-green {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 3px;
+
+}
+
+.color {
+    border-color: #00b172;
+}
+
+
+
+footer {
+  background-color: #00b172;
+  display: flex;
+}
+
+#font-green {
+    color: #00b172;
+  }
+
+.green-background {
+    color: white;
+    margin: 40px;
+}
+
+.underline {
+    text-decoration: solid underline 2px;
+}
+
+.logo-app {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-around;
+    margin: 40px
+}
+
+#footer1 img{
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer2 img {
+    height: 40vw;
+    display: flex;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
